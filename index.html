@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#e8edef" />
+    <meta
+      name="description"
+      content="黄辉的个人主页——机械工程专业硕士在读，记录学习、实践与持续成长。"
+    />
+    <meta property="og:title" content="黄辉｜个人主页" />
+    <meta
+      property="og:description"
+      content="在学习与实践中，持续建立自己的判断、方法和表达。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/images/hero-share.jpg" />
+    <title>黄辉｜个人主页</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="assets/images/hero-anime.webp" as="image" type="image/webp" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="common.skip">跳到主要内容</a>
+
+    <header class="site-header" aria-label="网站导航" data-i18n-aria-label="nav.aria">
+      <a class="brand-mark" href="#top" aria-label="返回首页" data-i18n-aria-label="common.home">
+        <svg class="brand-seal" aria-hidden="true" viewBox="0 0 48 48">
+          <circle class="brand-seal-ring" cx="24" cy="24" r="21.5" />
+          <path class="brand-seal-divider" d="M24 13.5v21" />
+          <text x="13" y="29.5" text-anchor="middle">H</text>
+          <text x="35" y="29.5" text-anchor="middle">H</text>
+        </svg>
+      </a>
+      <nav class="nav-links" aria-label="页面章节">
+        <a href="#about" data-i18n="nav.about">关于</a>
+        <a href="#journey" data-i18n="nav.journey">经历</a>
+        <a href="#moments" data-i18n="nav.moments">片刻</a>
+      </nav>
+      <div class="header-actions">
+        <button
+          class="language-toggle"
+          type="button"
+          data-language-toggle
+          aria-label="切换为英文"
+        >
+          <span data-language-current>中</span>
+          <span aria-hidden="true">/</span>
+          <span data-language-next>EN</span>
+        </button>
+        <a class="nav-contact" href="#contact">
+          <span data-i18n="nav.contact">联系我</span>
+          <svg aria-hidden="true" viewBox="0 0 20 20">
+            <path d="M5 15 15 5M7 5h8v8" />
+          </svg>
+        </a>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-shell" data-card>
+          <div class="hero-copy">
+            <div class="hero-meta" data-reveal>
+              <span>Personal profile</span>
+              <span data-i18n="hero.location">桂林 · 中国</span>
+            </div>
+
+            <div class="hero-title-wrap" data-reveal>
+              <p class="eyebrow">Mechanical Engineering · M.Eng. Candidate</p>
+              <h1 id="hero-title">黄辉</h1>
+              <p class="latin-name">HUI HUANG</p>
+            </div>
+
+            <p class="hero-statement" data-reveal data-i18n="hero.statement">
+              在学习与实践中，持续建立自己的判断、方法和表达。
+            </p>
+
+            <div class="hero-actions" data-reveal>
+              <button
+                class="primary-link copy-email"
+                type="button"
+                data-copy-email="huihui_gold@163.com"
+                aria-label="复制邮箱 huihui_gold@163.com"
+                data-i18n-aria-label="copy.aria"
+              >
+                <span>huihui_gold@163.com</span>
+                <svg aria-hidden="true" viewBox="0 0 24 24">
+                  <rect x="8" y="8" width="11" height="11" rx="2" />
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
+                </svg>
+              </button>
+              <span class="availability" data-i18n="hero.availability">2028 届 · 保持开放与探索</span>
+            </div>
+          </div>
+
+          <figure class="hero-visual">
+            <img
+              src="assets/images/hero-anime.webp"
+              alt="黄辉在桂林山水前的动漫风格侧面肖像"
+              data-i18n-alt="hero.alt"
+              width="1024"
+              height="1820"
+              fetchpriority="high"
+            />
+            <figcaption>
+              <span>Portrait / 01</span>
+              <span>Illustrated from life</span>
+            </figcaption>
+          </figure>
+
+          <div class="hero-sheen" aria-hidden="true"></div>
+        </div>
+      </section>
+
+      <section class="about section" id="about" aria-labelledby="about-title">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">A quiet introduction</p>
+          <h2 id="about-title" data-i18n-html="about.title">认真理解，<br />踏实推进。</h2>
+          <p class="section-translation" data-i18n-html="about.translation">Understand deeply.<br />Move with purpose.</p>
+        </div>
+
+        <div class="about-copy" data-reveal>
+          <p class="lead" data-i18n="about.lead">
+            我是黄辉，目前就读于桂林电子科技大学机械工程专业。比起快速给出答案，我更习惯先理解问题，再把思路一点点落实。
+          </p>
+          <p data-i18n="about.body">
+            本科阶段学习电气工程及其自动化，硕士阶段接触先进封装装备与高精度视觉对准。不同方向的学习经历，让我更关注系统之间如何连接，也更愿意持续补足自己的能力边界。
+          </p>
+        </div>
+
+        <dl class="profile-notes" data-reveal>
+          <div>
+            <dt><span class="dt-main" data-i18n="profile.status.label">当前身份</span> <span class="dt-en" data-i18n="profile.status.secondary">Current status</span></dt>
+            <dd data-i18n="profile.status.value">机械工程专业硕士在读</dd>
+          </div>
+          <div>
+            <dt><span class="dt-main" data-i18n="profile.expertise.label">能力关键词</span> <span class="dt-en" data-i18n="profile.expertise.secondary">Expertise</span></dt>
+            <dd data-i18n="profile.expertise.value">Python · MATLAB · 工程分析</dd>
+          </div>
+          <div>
+            <dt><span class="dt-main" data-i18n="profile.languages.label">语言</span> <span class="dt-en" data-i18n="profile.languages.secondary">Languages</span></dt>
+            <dd data-i18n="profile.languages.value">中文 · 英语 CET-6</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="visual-break" aria-label="人物照片">
+        <figure class="visual-break-image" data-reveal>
+          <img
+            src="assets/images/jacket-anime-bust-v2.webp"
+            alt="黄辉身穿浅色外套的半写实水彩肖像"
+            data-i18n-alt="portrait.alt"
+            width="696"
+            height="870"
+            loading="lazy"
+          />
+          <figcaption>
+            <span>Portrait study</span>
+            <span data-i18n="portrait.caption">安静生长，持续向前。</span>
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="journey section" id="journey" aria-labelledby="journey-title">
+        <div class="section-heading journey-heading" data-reveal>
+          <p class="eyebrow">Selected journey</p>
+          <h2 id="journey-title" data-i18n-html="journey.title">循问题而行，<br />向答案靠近。</h2>
+          <p class="section-translation" data-i18n-html="journey.translation">Following questions,<br />toward clearer answers.</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item" data-reveal>
+            <p class="timeline-date">2025 — 2028</p>
+            <div>
+              <h3 data-i18n="journey.guet.title">桂林电子科技大学</h3>
+              <p class="timeline-name-en" data-i18n="journey.guet.secondary">Guilin University of Electronic Technology</p>
+              <p class="timeline-role" data-i18n="journey.guet.role">机械工程 · 专业硕士研究生</p>
+              <p data-i18n="journey.guet.body">
+                研究方向涉及先进封装装备与高精度视觉对准，正在学习把算法、成像与工程约束放在同一套问题框架中理解。
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item" data-reveal>
+            <p class="timeline-date" data-i18n="journey.project.date">2025 — 至今</p>
+            <div>
+              <h3 data-i18n="journey.project.title">芯片热压键合视觉对准研究</h3>
+              <p class="timeline-name-en" data-i18n="journey.project.secondary">Vision alignment for thermocompression bonding</p>
+              <p class="timeline-role" data-i18n="journey.project.role">第一作者 · 会议论文审稿中</p>
+              <p data-i18n="journey.project.body">
+                参与局部高倍率成像、标记定位与几何对准等研究工作，围绕视觉对准方案开展仿真分析与方法验证。
+              </p>
+            </div>
+          </article>
+
+          <article class="timeline-item" data-reveal>
+            <p class="timeline-date">2020 — 2024</p>
+            <div>
+              <h3 data-i18n="journey.syau.title">沈阳农业大学</h3>
+              <p class="timeline-name-en" data-i18n="journey.syau.secondary">Shenyang Agricultural University</p>
+              <p class="timeline-role" data-i18n="journey.syau.role">电气工程及其自动化 · 工学学士</p>
+              <p data-i18n="journey.syau.body">
+                完成电路、电力系统、电力电子与自动控制等课程学习，并通过企业见习了解设备运行、装配和质量检验流程。
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="moments section" id="moments" aria-labelledby="moments-title">
+        <div class="moments-intro" data-reveal>
+          <p class="eyebrow">Frames in between</p>
+          <h2 id="moments-title" data-i18n-html="moments.title">光有来处，<br />时间有痕。</h2>
+          <div class="moments-note">
+            <p data-i18n="moments.body">研究之外，城市的秩序、山水的松弛与日常的偶然，也构成了我观察世界的方式。</p>
+            <p data-i18n="moments.secondary">Beyond research, I collect places, light, and ordinary moments.</p>
+          </div>
+        </div>
+
+        <div class="gallery" aria-label="个人图集">
+          <figure class="gallery-item gallery-item-anime" data-reveal>
+            <img
+              src="assets/images/city-watercolor-v3.webp"
+              alt="黄辉与街头钟柱的半写实水彩肖像"
+              data-i18n-alt="moments.alt"
+              width="972"
+              height="1619"
+              loading="lazy"
+            />
+            <figcaption data-i18n-html="moments.caption"><span>02</span> 城市与时间</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact" aria-labelledby="contact-title">
+        <div class="contact-inner" data-reveal>
+          <p class="eyebrow">Keep in touch</p>
+          <h2 id="contact-title" data-i18n="contact.title">很高兴认识你。</h2>
+          <p data-i18n="contact.body">若你也有正在思考的问题，或想交换一个有趣的想法，欢迎写信给我。</p>
+          <button
+            class="contact-email copy-email"
+            type="button"
+            data-copy-email="huihui_gold@163.com"
+            aria-label="复制邮箱 huihui_gold@163.com"
+            data-i18n-aria-label="copy.aria"
+          >
+            <span>huihui_gold@163.com</span>
+            <svg aria-hidden="true" viewBox="0 0 32 32">
+              <rect x="11" y="11" width="15" height="15" rx="2.5" />
+              <path d="M7 21H5.5A2.5 2.5 0 0 1 3 18.5v-13A2.5 2.5 0 0 1 5.5 3h13A2.5 2.5 0 0 1 21 5.5V7" />
+            </svg>
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p class="footer-name">Hui Huang</p>
+      <p class="footer-meta">Mechanical Engineering · Personal Profile</p>
+      <div class="footer-end">
+        <span>© <span data-year>2026</span></span>
+        <a class="footer-back" href="#top">
+          <span data-i18n="footer.back">返回顶部</span>
+          <svg aria-hidden="true" viewBox="0 0 20 20">
+            <path d="M10 16V4M5.5 8.5 10 4l4.5 4.5" />
+          </svg>
+        </a>
+      </div>
+    </footer>
+
+    <div class="copy-toast" data-copy-toast role="status" aria-live="polite" aria-atomic="true" data-i18n="copy.ready">
+      邮箱已复制 · huihui_gold@163.com
+    </div>
+  </body>
+</html>
